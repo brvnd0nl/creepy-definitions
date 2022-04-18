@@ -1,4 +1,4 @@
-import ItemBusqueda from "./ItemBusqueda";
+import ItemBusqueda from "./ItemBusqueda"
 
 const ResultadoBusqueda = ({search, setSearch, dictionaryArray}) => {    
     console.log("dictionaryArray");

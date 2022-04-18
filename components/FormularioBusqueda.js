@@ -2,7 +2,7 @@ import {useState} from 'react'
 import {database} from '../config/firebase'
 import {collection, getDocs} from 'firebase/firestore'
 import styles from '../styles/FormularioBusqueda.module.css'
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/AuthContext'
 
 const FormularioBusqueda = ({search, setSearch, setDictionaryArray}) => {
     const [word, setWord] = useState("");
