@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import { AuthContextProvider } from '../context/AuthContext';
 import '../styles/globals.css'
 

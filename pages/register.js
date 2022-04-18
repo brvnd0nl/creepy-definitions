@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import { useRouter } from 'next/router'
 import { useAuth } from '../context/AuthContext'
 import styles from '../styles/register.module.css'
 
 const register = () => {
     const router = useRouter();
-    const {user, signUp} = useAuth();
+    const {signUp} = useAuth();
     const [userData, setUserData] = useState({
         nombre: '',
         usuario: '',
